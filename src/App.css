@@ -1,38 +1,85 @@
 .App {
+  margin-top: 80px;
+}
+.heading{
+  color:#00cc99;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .top-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+  
+} */
+input{
+  border:1px solid rgba(22, 159, 95, 0.3);
+  padding: 7px;
+}
+.add-button{
+  background-color:#00cc99;
+  color:azure;
+  width: 150px;
+  border: 1px solid #00cc99;
+  border-radius: 10px;
+}
+/* .middle-container{
+  display: flex;
+  margin: 50px;
+  margin-left: 200px
+  
+} */
+.right{
+  margin-left: 700px;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+.card-outer{
+  background-color:rgb(204, 255, 229);
+  padding: 30px;
+  margin:10px;
+}
+.card-innerContainer{
+  display: flex;
+  gap:7px;
+  justify-content: right;
+  margin-top: 30px;
+}
+select{
+  background-color: rgb(241, 135, 135);
+  color: white;
+  border:1px solid rgb(241, 135, 135);
+  padding: 5px;
+}
+#opt-1{
+  background-color: rgb(241, 135, 135);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#opt-2{
+  background-color: rgb(30, 112, 67);
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#opt-3{
+  background-color: rgb(241, 135, 135);
+  color: white;
+}
+.button-edit{
+  background-color:#00cc99;
+  color:azure;
+  width: 100px;
+  border: 1px solid #00cc99;
+  border-radius: 5px;
+  padding: 5px;
+}
+.button-delete{
+  background-color:rgb(219, 92, 92);
+  color:azure;
+  width: 100px;
+  border: 1px solid rgb(219, 92, 92);
+  border-radius: 5px;
+  padding: 5px;
 }
